@@ -1,20 +1,12 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Food-Bank-CCI-PoC
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+Add a brief description of this project here, in Markdown format.
+It will be shown on the main page of the project's GitHub repository.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+## Development
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+To work on this project in a scratch org:
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+1. [Set up CumulusCI](https://cumulusci.readthedocs.io/en/latest/tutorial.html)
+2. Run `cci flow run dev_org --org dev` to deploy this project.
+3. Run `cci org browser dev` to open the org in your browser.

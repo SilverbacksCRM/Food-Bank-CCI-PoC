@@ -1,0 +1,25 @@
+minimum_cumulusci_version: '3.25.0'
+project:
+    name: Food-Bank-CCI-PoC
+    package:
+        name: Food-Bank-CCI-PoC
+        api_version: '50.0'
+    git:
+        default_branch: 'trunk'
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/Food-Bank-CCI-PoC/tests
+            options:
+                outputdir: robot/Food-Bank-CCI-PoC/results
+
+    robot_testdoc:
+        options:
+            path: robot/Food-Bank-CCI-PoC/tests
+            output: robot/Food-Bank-CCI-PoC/doc/Food-Bank-CCI-PoC_tests.html
+
+    run_tests:
+        options:
+            required_org_code_coverage_percent: 75
