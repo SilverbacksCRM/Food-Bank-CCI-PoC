@@ -1,7 +1,6 @@
 # Food-Bank-CCI-PoC
 
-Add a brief description of this project here, in Markdown format.
-It will be shown on the main page of the project's GitHub repository.
+This is a proof of concept project created as part of evaluating CumulusCI to manage Salesforce development and environment deployments. This project was created as part of the Salesforce trail "Building Applications with CumulusCI" that has the student create a Food-Bank app for the sake of going through concepts and capabilities of CumulusCI. Like all things, this was merely used as a start to the research into how CCI could be used here at Sallie Mae.
 
 ## Development
 
