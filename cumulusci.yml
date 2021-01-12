@@ -3,6 +3,7 @@ project:
     name: Food-Bank-CCI-PoC
     package:
         name: Food-Bank-CCI-PoC
+        namespace: tonysccipoc
         api_version: '50.0'
     git:
         default_branch: 'trunk'
