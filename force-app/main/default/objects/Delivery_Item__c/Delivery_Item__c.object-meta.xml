@@ -155,9 +155,8 @@
     <externalSharingModel>Private</externalSharingModel>
     <label>Delivery Item</label>
     <nameField>
-        <displayFormat>DI-{0000}</displayFormat>
         <label>Delivery Item Name</label>
-        <type>AutoNumber</type>
+        <type>Text</type>
     </nameField>
     <pluralLabel>Delivery Items</pluralLabel>
     <searchLayouts/>
