@@ -19,7 +19,6 @@ Insert Delivery_Item__c:
   fields:
   - Food_Expiration_Date__c
   - Food_Storage__c
-  - Name
   lookups:
     Delivery__c:
       table: Delivery__c
